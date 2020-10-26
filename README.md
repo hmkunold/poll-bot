@@ -1,5 +1,5 @@
 # poll-bot
-A discord bot for polls as a self hosted alternative to sites like strawpoll
+A discord bot for polls as a self hosted alternative to external sites with that functionality
 
 # Installing dependencies
 To start off you should have `python3` and `pip` installed. In case you don't have those, get them via your packet manager.
