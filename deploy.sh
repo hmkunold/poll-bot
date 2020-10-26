@@ -31,11 +31,13 @@ done
 while true; do
 	if [ $updates == 1 ]
 	then
+		echo "Checking github for upodates"
 		git pull
 	fi
 
 	if [ $dependencies == 1 ]
 	then
+		echo"Checking for new dependencies"
 		pip install -r dependencies.txt
 	fi
 
