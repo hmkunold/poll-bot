@@ -14,12 +14,15 @@ do
 			echo "-h	help, shows this page"
 			echo "-u	pull updates from github"
 			echo "-d	check dependencies when updating, will probably require root privileges"
+			exit
 			;;
 		u)
 			updates=1
+			echo "Checking github for updates"
 			;;
 		d)
 			dependencies=1
+			echo "checking for new dependencies"
 			;;
 	esac
 done
